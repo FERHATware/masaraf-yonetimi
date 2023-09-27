@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4px;
+    background-color: #bababa;
+    color: white;
+    /* font-weight: 500; */
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* Tablo stilini ayarla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Tablo başlıklarını ayarla */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Tablo sütunlarını ayarla */
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Tablo satırlarını ayarla */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Tablo üzerinde fareyle gezinirken satır rengini değiştir */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Buton stilini ayarla */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Buton üzerinde fareyle gezinirken rengini değiştir */
+button:hover {
+    background-color: #3e8e41;
+}
+
+/* Toplam masraf etiketini ayarla */
+p {
+    font-weight: bold;
+}

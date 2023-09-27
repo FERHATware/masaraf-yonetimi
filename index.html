@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <h1>Masraf Yönetimi</h1>
+
+    <header>
+        <div>
+            <label for="proje_adi">Dönem :</label>
+            <select id="proje_adi">
+                <option value="seç">seç</option>
+              <option value="Ocak">Ocak </option>
+              <option value="Şubat">Şubat </option>
+              <option value="Mart">Mart </option>
+              <option value="Nisan">Nisan </option>
+              <option value="Mayıs">Mayıs </option>
+              <option value="Haziran">Haziran </option>
+              <option value="Temmuz">Temmuz </option>
+              <option value="Ağustos">Ağustos </option>
+              <option value="Eylül">Eylül </option>
+              <option value="Ekim">Ekim </option>
+              <option value="Kasım">Kasım </option>
+              <option value="Aralık">Aralık </option>
+            </select>
+        </div>
+        <div>
+            <label for="duzenleme-tarihi" > Düzenleme Tarihi :</label>
+            <input type="date" id="duzenleme-tarihi" placeholder="">
+        </div>
+    </header>
+
+    <table id="masraf-tablosu">
+        <tr>
+            <th>Proje Adı</th>
+            <th>Fatura Tarihi</th>
+            <th>Fatura No</th>
+            <th>Fatura Ünvanı</th>
+            <th>Masraf Tipi</th>
+            <th>Açıklama</th>
+            <th>KDV Hariç Tutar</th>
+            <th>KDV Oranı</th>
+            <th>KDV</th>
+            <th>Toplam</th>
+            <th>İşlem</th>
+        </tr>
+        <!-- Tabloya veri eklenecek -->
+    </table>
+    <button id="ekle-butonu">Yeni Satır Ekle</button>
+    <p id="toplam-masraf">Toplam Masraf: 0 TL</p>
+
+    <script src="main.js"></script>
+</body>
+</html>
